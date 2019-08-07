@@ -1,11 +1,14 @@
 {
   "name": "@webpack-blocks/assets",
-  "version": "2.5.4",
+  "version": "2.5.6",
   "description": "Webpack block for style loader, file loader, url loader and friends.",
   "main": "./dist/index.js",
   "license": "MIT",
   "author": "Andy Wermke <andy@dev.next-step-software.com>",
   "repository": "agrublev/webpack-blocks-assets",
+  "scripts": {
+    "build": "parcel build lib/index.js --target=node --no-cache --bundle-node-modules"
+  },
   "dependencies": {
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
