@@ -1,19 +1,11 @@
 {
   "name": "@webpack-blocks/assets",
-  "version": "2.0.1",
+  "version": "2.5.3",
   "description": "Webpack block for style loader, file loader, url loader and friends.",
-  "main": "lib/index",
+  "main": "./lib/index.js",
   "license": "MIT",
   "author": "Andy Wermke <andy@dev.next-step-software.com>",
-  "engines": {
-    "node": ">= 6.0"
-  },
-  "keywords": [
-    "webpack",
-    "webpack-blocks"
-  ],
-  "repository": "andywer/webpack-blocks",
-  "bugs": "https://github.com/andywer/webpack-blocks/issues",
+  "repository": "agrublev/webpack-blocks-assets",
   "dependencies": {
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
